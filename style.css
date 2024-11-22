@@ -1,0 +1,99 @@
+body {
+    color: maroon;
+    font-family: Arial, sans-serif;
+    background-color: maroon;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aquamarine;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+header h1 {
+    margin: 0 0 10px;
+}
+
+header input, header textarea, header button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header button {
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #2873c6;
+}
+
+main .post {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+main .post img {
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+main .post .caption {
+    margin: 10px 0;
+}
+
+main .post .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .post .actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #3897f0;
+}
+
+main .post .comments {
+    margin-top: 10px;
+}
+
+main .post .comments form {
+    display: flex;
+}
+
+main .post .comments form input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main .post .comments form button {
+    padding: 5px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
